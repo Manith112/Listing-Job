@@ -1,5 +1,5 @@
 import React from 'react'
-import close from "./images/icon-remove.svg"
+import close from "../public/images/icon-remove.svg"
 const Filters = ({
     filters,
     clearAll,
