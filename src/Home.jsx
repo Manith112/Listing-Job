@@ -17,7 +17,7 @@ const Home = ({
                    
          <div className="list">
                 <div className="left">
-                <img src={logo} alt="logo" className="image"/>
+                <img src={logo} alt={company} className="image"/>
                 <div className="detail">
                     <div className="first-row">
                         <p className="company">{company}</p>

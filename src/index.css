@@ -24,7 +24,7 @@
     padding: 70px;
 }
 .body{
-    height: auto;
+    min-height: 100vh;
     background-color: var(--Light-Grayish-Cyan);
     position: relative;
 }
@@ -216,7 +216,7 @@
    
     .tags{
         margin: 30px 10px;
-        display: grid;
+        flex-wrap: wrap;
         gap: 10px;
         
     }
@@ -234,8 +234,6 @@
     margin: 100px 20px;
    }
    .filters > .active-filters{
-    gap: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
+    flex-wrap: wrap;
    }
 }

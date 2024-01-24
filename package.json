@@ -1,16 +1,20 @@
 {
+  "homepage": "https://Manith112.github.io/Listing-Job",
   "name": "result-summary",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
     "autoprefixer": "^10.4.16",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.32",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
